@@ -65,6 +65,7 @@ This document lays out the current public properties and methods for the React N
 - [`sharedCookiesEnabled`](Reference.md#sharedCookiesEnabled)
 - [`textZoom`](Reference.md#textZoom)
 - [`ignoreSilentHardwareSwitch`](Reference.md#ignoreSilentHardwareSwitch)
+- [`autoManageStatusBarEnabled`](Reference.md#autoManageStatusBarEnabled)
 
 ## Methods Index
 
@@ -1137,6 +1138,19 @@ When set to true the hardware silent switch is ignored. Default: `false`
 | Type    | Required | Platform |
 | ------- | -------- | -------- |
 | boolean | No       | iOS      |
+---
+
+### `autoManageStatusBarEnabled`
+
+If the user watch fullscreen video in WebView then StatusBar will be light. The default value is `true`.
+
+| Type   | Required | Platform |
+| ------ | -------- | -------- |
+| number | No       | iOS      |
+
+Example:
+
+`<WebView autoManageStatusBarEnabled={false} />`
 
 ## Methods
 
