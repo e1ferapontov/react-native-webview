@@ -323,6 +323,7 @@ static NSDictionary* customCertificatesForHost;
     RCTUnsafeExecuteOnMainQueueSync(^{
       [RCTSharedApplication() setStatusBarStyle:UIStatusBarStyleLightContent animated:YES];
     });
+  }
 #pragma clang diagnostic pop
 }
 
